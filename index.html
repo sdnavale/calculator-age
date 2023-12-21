@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age Calcutor File</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple file</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google Font Family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display
+=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: slategrey;
+      }
+      div {
+        font-family: "Itim", cursive;
+        border: 3px solid rgb(194, 19, 19);
+        background-color: #87ceeb;
+        color: black;
+        height: 40vh;
+        width: 30vw;
+        padding: 20px;
+        margin: 50px;
+        line-height: 0.9em;
+      }
+      .form {
+        box-sizing: border-box;
+        height: 10vh;
+        width: 30vw;
+        margin: 50px;
+        padding: 20px;
+        line-height: 5em;
+      }
+      h2 {
+        text-shadow: 2px 2px 1px rgb(91, 92, 95);
+        border: 2px solid blue;
+        background-color: rgb(222, 198, 212);
+        line-height: 0.9em;
+        margin: 20px;
+        padding: 5px;
+      }
+      h3 {
+        font-size: 20px;
+        padding-left: 50px;
+        margin: 40px;
+      }
+      #tab:hover {
+        color: rgb(83, 83, 82);
+        background-color: rgb(247, 173, 82);
+        width: 80px;
+        border-radius: 5px;
+      }
+      #reset:hover {
+        color: rgb(83, 83, 82);
+        background-color: rgb(247, 173, 82);
+        width: 80px;
+        border-radius: 5px;
+      }
+      section {
+        color: antiquewhite;
+        font-size: 25px;
+        padding-left: 70px;
+        margin: 20px;
+        word-spacing: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Calculate Age</h2>
+      <table class="form">
+        <tr>
+          <td>
+            <label> Select Age :</label>
+          </td>
+          <td>
+            <input type="datetime-local" />
+          </td>
+        </tr>
+        <tr>
+          <td id="button"><button id="tab">Select Age</button></td>
+          <td id="button">
+            <button type="reset" id="reset">reset</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h3>Calculated Age is :</h3>
+    <section>
+      <span
+        ><a href="https://twitter.com/">
+          <i class="fa fa-twitter" aria-hidden="true"></i></a
+      ></span>
+      <span
+        ><a href="https://in.linkedin.com/">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i></a
+      ></span>
+      <span
+        ><a href="https://www.facebook.com/"
+          ><i class="fa fa-facebook-square" aria-hidden="true"></i> </a
+      ></span>
+      <span>
+        <a href=" https://www.instagram.com/"
+          ><i class="fa fa-instagram" aria-hidden="true"></i></a
+      ></span>
+    </section>
+  </body>
 </html>
